@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div  class="head">
+            <img src="joyful-young-woman-raising-hands-sky_23-2148149933.jpg">
+        </div>
+    </header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Naveen <span class="text-danger">Car Travel's</span></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Car's</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Services</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                <h5 class="dropdown-header">With Driver</h5>
+                                <a class="dropdown-item" href="#">Hire a Car</a>
+                                <h5 class="dropdown-header">Without Driver</h5>
+                                <a class="dropdown-item" href="#">Book Now</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Call Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Mail Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="container-fluid mt-5">
+            <div class="row">
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5 d-flex justify-content-center align-items-center">
+                    <div class="text-center">
+                        <h1>Welcome to <br> <span class="text-danger"> Naveen Car Travel's</span></h1>
+                        <p>One of the best car maintainace and services in Vijayawada</p>
+                        <button class="btn btn-outline-danger mb-5 px-5 " data-bs-toggle="modal" data-bs-target="#modalId">Hire
+                            Now</button>
+                        <button class="btn btn-outline-danger  mb-5 px-5" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                            Now</button>
+                    </div>
+                </div>
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5  d-flex justify-content-center align-items-center">
+                    <img src="lamborghini-girl-car-canada-wallpaper-preview.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog"
+            aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-danger" id="modalTitleId">Hire / Book Now</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" class="was-validated">
+                            <div class="form-floating mb-3">
+                                <input required type="text" pattern="[a-zA-Z]{}" class="form-control" name="name" id="name"
+                                    placeholder="Name">
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="email" class="form-control" name="email" id="email"
+                                    placeholder="Email">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="tel" pattern="[0-9]{10}" minlength="10" maxlength="10"
+                                    class="form-control" name="mobile" id="mobile" placeholder="Mobile Number">
+                                <label for="mobile">Mobile Number</label>
+                                <div class="invalid-feedback">Enter 10*digit Mobile Number</div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input required type="text" class="form-control" name="car" id="car"
+                                    placeholder="Car Model">
+                                <label for="car">Car Model</label>
+                            </div>
+    
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <input type="submit" class="btn btn-outline-danger">
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section class="container my-5">
+           <div class="row">
+            <h1 style="text-align: center; margin-top: 30px; margin-bottom: 30px;">Our <span class="text-danger">Cab Services</span></h1>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="cab">
+                <div class="card">
+                    <img class="card-img-top" src="cab1.webp" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Srisailam Tour Packages</h4>
+                    </div>
+                    <div>
+                        <button style="margin-bottom: 20px;" class="btn btn-outline-danger w-100" data-bs-toggle="modal" data-bs-target="#modalId">Book   Now</button>
+    
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card">
+                    <img class="card-img-top" src="cab2.webp" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Outstation Cab Service</h4>
+                    </div>
+                    <div>
+                        <button style="margin-bottom: 20px;" class="btn btn-outline-danger w-100" data-bs-toggle="modal" data-bs-target="#modalId">Book Now</button>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card">
+                    <img class="card-img-top" src="cab3.webp" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Local Cab Service</h4>   
+                    </div>
+                    <div>
+                        <button style="margin-bottom: 20px;" class="btn btn-outline-danger w-100" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                            Now</button>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                <div class="card">
+                    <img class="card-img-top" src="cab4.webp" alt="Title">
+                    <div class="card-body">
+                        <h4 class="card-title">Airport Cab Service</h4>    
+                    </div>
+                    <div>
+                        <button style="margin-bottom: 20px;" class="btn btn-outline-danger w-100" data-bs-toggle="modal" data-bs-target="#modalId">Book Now</button>
+                    </div>
+                </div>
+            </div>
+           </div>
+        </section>
+        <section class="container-fluid text-center">
+            <h1 style="margin-top: 30px; margin-bottom: 30px;">Cab <span class="text-danger">Packages</span></h1>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig">
+                        <h3>8 Hrs / 80 Kms Package</h3>
+                        <img src="s1.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹2500</p>
+                            <p style="margin-right:25px;">Innova: ₹3500</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹4000</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig">
+                        <h3>12 Hrs / 120 Kms Package</h3>
+                        <img src="s2.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹4000</p>
+                            <p style="margin-right:25px;">Innova: ₹4500</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹5500</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig">
+                        <h3>Hyderabad City Tour Package</h3>
+                        <img src="s3.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹3500</p>
+                            <p style="margin-right:25px;">Innova: ₹4500</p>
+                            <p style="margin-left: 23px;">Innova Crysta: ₹5500</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig">
+                        <h3>Ramoji Film City Cab Package</h3>
+                        <img src="s4.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹4500</p>
+                            <p style="margin-right:25px;">Innova: ₹5500</p>
+                            <p style="margin-left: 23px;">Innova Crysta: ₹6500</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig">
+                        <h3>Yadagirigutta Package</h3>
+                        <img src="s5.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹2500</p>
+                            <p style="margin-right:25px;">Innova: ₹3500</p>
+                            <p style="margin-left: 23px;">Innova Crysta: ₹4000</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig">
+                        <h3>Statue of Equality Package</h3>
+                        <img src="s6.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹7500</p>
+                            <p style="margin-right:18px;">Innova: ₹11000</p>
+                            <p style="margin-left: 29px;">Innova Crysta: ₹14000</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig">
+                        <h3>1 Day Srisailam Package</h3>
+                        <img src="s7.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹9500</p>
+                            <p style="margin-right:18px;">Innova: ₹12500</p>
+                            <p style="margin-left: 29px;">Innova Crysta: ₹16000</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig">
+                        <h3>2 Days Srisailam Package</h3>
+                        <img src="s8.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹9500</p>
+                            <p style="margin-right:18px;">Innova: ₹12500</p>
+                            <p style="margin-left: 29px;">Innova Crysta: ₹16000</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid text-center">
+            <h1 style="margin-top: 30px; margin-bottom: 30px;">Inter City <span class="text-danger">Packages</span></h1>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3"">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Vijayawada Cab</h3>
+                        <img src="inter1.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3"">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Guntur Cab</h3>
+                        <img src="inter2.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Tirupati Cab</h3>
+                        <img src="inter3.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Vizag/Araku Valley Cab Package</h3>
+                        <img style="width: 200px; height: 175px;" src="inter4.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Rajahmundry Cab</h3>
+                        <img style="width: 200px; height: 175px;" src="inter5.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Bangalore Cab</h3>
+                        <img src="inter6.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Chennai Cab</h3>
+                        <img src="inter7.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Shirdi Cab</h3>
+                        <img src="inter8.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Nanded Cab</h3>
+                        <img src="inter9.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Goa Cab</h3>
+                        <img src="inter10.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Pune Cab</h3>
+                        <img src="inter11.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                            <div class="card-footer">
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3">
+                    <figure class="fig1">
+                        <h3>Hyderabad To Mumbai Cab</h3>
+                        <img src="inter12.webp">
+                        <figcaption>
+                            <p style="margin-right:30px;">Sedan: ₹13/Km</p>
+                            <p style="margin-right:25px;">Innova: ₹18/Km</p>
+                            <p style="margin-left: 25px;">Innova Crysta: ₹20/Km</p>
+                            <p>* Tolls, Border Tax (if any), Driver Batta Rs.500/Day Extra</p>
+                            <p>**Discount available on Round Trip Cab</p>
+                                <button class="btn btn-outline-danger w-50" data-bs-toggle="modal" data-bs-target="#modalId">Book
+                                    Now</button>
+                                    </div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+              </div>
+        </section>
+        <section class="container-fluid">
+            <div class="row">
+             <div
+                 class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5 d-flex justify-content-center align-items-center">
+                 <div class="text-center">
+                     <h1>Why <span class="text-danger"> Choose Us ?</span></h1>
+                     <p>There are several compelling reasons to choose KKP Travels for your transportation needs. KKP Travels is a well-established and reputable travel company that offers a range of services designed to make your journey comfortable, convenient, and enjoyable. Here are some of the key reasons why you should consider KKP Travels:</p>
+                     <section class="container-fluid">
+                         <div class="row">
+                         <div class="col-4">
+                         <p style="font-size: 20px;"><strong>100%</strong></p>
+                         <p>Customer Satisfaction</p> 
+                         </div> 
+                         <div class="col-4">
+                             <p style="font-size: 20px;"><strong>15 k</strong></p>
+                             <p>Rides Completed</p> 
+                             </div>
+                             <div class="col-4">
+                                 <p style="font-size: 20px;"><strong>1,000</strong> </p>
+                                 <p>Satisfied Customers</p> 
+                                 </div>
+                         </div> 
+                         </section>
+                 </div>
+             </div>
+             <div
+                 class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5  d-flex justify-content-center align-items-center">
+                 <div class="row">
+                 <p>1. <b>Safety: </b>naveen Travels prioritizes passenger safety with well-maintained vehicles and rigorous safety checks.</p>
+                 <p>2. <b>Professional Drivers:</b>  Their experienced drivers offer excellent service and ensure a smooth journey.</p>
+                 <p>3. <b>Punctuality:</b> Naveen Travels is known for being on time, valuing your schedule.</p>
+                 <p>4. <b>Comfort and Cleanliness:</b>  Their vehicles are clean and comfortable, providing an enjoyable travel experience. </p>
+                 <p>5. <b>Affordable Pricing:</b> Naveen Travels offers competitive, transparent pricing, ensuring value for your money.</p>
+                </div>
+             </div>
+         </div>
+          </section>
+    <section class="container-fluid mt-5">
+        <div class="row">
+            <div
+            class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5  d-flex justify-content-center align-items-center">
+            <img src="sit1.webp" class="img-fluid" alt="">
+        </div>
+            <div
+                class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 p-5 d-flex justify-content-center align-items-center">
+                <div class="text-center">
+                    <h1>Sit Back and Relax. We'll Take Care</h1>
+                    <p>However venture pursuit he am mr cordial. Forming musical am hearing studied be luckily. Ourselves for determine attending how led gentleman sincerity.</p>
+                    <p><strong>Safety 100%</strong></p>
+                    <div style="margin-bottom: 10px;" class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 100%"></div>
+                      </div>
+                      <p><strong>Affordability 90%</strong></p>
+                      <div style="margin-bottom: 10px;" class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 90%"></div>
+                      </div>
+                      <p><strong>Car Quality 100%</strong></p>
+                      <div style="margin-bottom: 10px;" class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar bg-danger" style="width: 100%"></div>
+                      </div>
+                </div>
+            </div>
+  </section>
+  <section class="contact row container-fluid text-center">
+            <h1>Know More</h1>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 d-flex justify-content-center align-items-center ">
+                <div>
+                    <h2>Hire Cars from US</h2>
+                    <h2>Rent Cars a from US</h2>
+                    <h2>Self Driving Cars a from US</h2>
+                </div>
+            </div>
+            <div class="p-5 col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108465.93890392348!2d78.43137810953134!3d17.524065644933778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9029fcb48d7d%3A0x467d0562199a5fd!2sShri%20Chittaramma%20Devasthanam!5e0!3m2!1sen!2sin!4v1697791201032!5m2!1sen!2sin" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <footer class="container-fluid p-2 mt-3 text-center text-bg-dark">
+            <p>&copy; Developed by &lt;Swathi&gt;</p>
+        </footer>
+    </body>
+    
+    </html>
